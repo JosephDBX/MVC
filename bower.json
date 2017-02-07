@@ -1,0 +1,26 @@
+{
+  "name": "MVC",
+  "homepage": "https://github.com/JosephDBX/",
+  "authors": [
+    "JosephDBX <st.joseph.dbx@gmail.com>"
+  ],
+  "version": "1.0.0",
+  "directory": "/public/components",
+  "description": "MVC for PHP projects",
+  "main": "\\public\\index.php",
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/components"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1",
+    "tether": "^1.4.0",
+    "bootstrap-glyphicon-josephdbx": "*",
+    "bootstrap4-temp": "*"
+  }
+}

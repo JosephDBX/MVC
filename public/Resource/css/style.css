@@ -1,0 +1,37 @@
+* {}
+
+.background_image {
+    background: #6EAECB;
+    background: url(../image/background.jpg) center 0 no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.alert_icon {
+    width: 48px;
+    height: 48px;
+    font-size: 35px;
+    color: rgba(0, 0, 0, .6);
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.alert strong {
+	padding-left: 5px;
+}
+
+.alert-danger .alert_icon {
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+.alert-warning .alert_icon {
+    background-color: #fcf8e3;
+    color: #8a6d3b;
+}
+
+.alert-info .alert_icon {
+    background-color: #d9edf7;
+    color: #31708f;
+}
